@@ -1,0 +1,7 @@
+check(){
+echo "[bashrc] check last lines of .bashrc:"
+cat -n ~/.bashrc | tail -10
+}
+
+
+#cat ~/.bashrc | grep "$line" 
