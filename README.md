@@ -2,8 +2,7 @@
 
 #do_for_others_first
 ===========
-#just another Whatsup clone
-
+#greatness is on the move
 
 todo
 ==
