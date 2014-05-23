@@ -39,7 +39,7 @@ read answer
 if [ "$answer" = y ]; then
 
         #dont allow editing of a sub-module
-        git_url="git@github.com:brownman/repo.git"
+        git_url="git@github.com:brownman/$repo.git"
 
 #    git_url="https://github.com/$owner/$repo.git"
     cmd="git submodule add --depth 1 $git_url READ_ONLY/$repo"

@@ -1,0 +1,3 @@
+[submodule "READ_ONLY/gmail_group"]
+	path = READ_ONLY/gmail_group
+	url = git@github.com:brownman/repo.git
