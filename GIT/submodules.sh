@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x 
 # Idea from http://stackoverflow.com/questions/2144406/git-shallow-submodules
 git submodule init
 for i in $(git submodule | sed -e 's/.* //'); do
