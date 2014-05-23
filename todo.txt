@@ -1,1 +1,4 @@
+
+github api - post an issue via curl
+cfg -  add gui menu: optional / notification
 talk to eran
