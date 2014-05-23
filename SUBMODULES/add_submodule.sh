@@ -43,8 +43,8 @@ if [ "$answer" = y ]; then
 
 #    git_url="https://github.com/$owner/$repo.git"
 
-    #cmd="git submodule add --depth 1 $git_url READ_ONLY/$repo"
-    cmd="git submodule add $git_url READ_ONLY/$repo"
+cmd="git submodule add --depth 1 $git_url READ_ONLY/$repo"
+#    cmd="git submodule add $git_url READ_ONLY/$repo"
   
  
     echo "[cmd] $cmd"
