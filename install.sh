@@ -11,8 +11,9 @@ create_anchor(){
 cat > ~/link << FILE
 export dir_root0=`pwd`
 alias cdroot="cd \$dir_root0"
-source \$dir_root0/setup.cfg
+source \$dir_root0/source.cfg
 source \$dir_root0/env.cfg
+. \$dir_root0/run.sh
 FILE
 }
 create_bashrc_link(){
