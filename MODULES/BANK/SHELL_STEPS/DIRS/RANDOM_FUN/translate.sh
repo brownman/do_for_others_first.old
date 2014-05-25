@@ -66,7 +66,7 @@ step3(){
     else
         echo "use cached file"
     fi
-    if  [ -f $file ];then
+    if  [ -s $file ];then
 
         cmd="play -V1 -q  $file_mp3"
         #    mpg321 $file_mp3 1> /dev/null

@@ -1,0 +1,9 @@
+[submodule "READ_ONLY/gmail_group"]
+	path = READ_ONLY/gmail_group
+	url = git@github.com:brownman/gmail_group.git
+[submodule "READ_ONLY/GIMME_A_REASON_TO_STAND_UP"]
+	path = READ_ONLY/GIMME_A_REASON_TO_STAND_UP
+	url = git@github.com:brownman/GIMME_A_REASON_TO_STAND_UP.git
+[submodule "READ_ONLY/LIBRARY"]
+	path = READ_ONLY/LIBRARY
+	url = git@github.com:brownman/LIBRARY.git

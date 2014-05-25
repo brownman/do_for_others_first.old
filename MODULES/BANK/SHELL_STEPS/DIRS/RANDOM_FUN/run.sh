@@ -9,7 +9,7 @@ echo $str >> $file_quote
 xcowsay "$str" --time=20
 echo `pwd`
 alias remind="cat /tmp/quote"
-dir_self=`where_am_i $0`
+dir_self=`dirname $0`
 ls -l "$dir_self/translate.sh"
 
 file_translate=$dir_self/translate.sh

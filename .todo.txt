@@ -1,0 +1,5 @@
+first dev package- for INIT/
+github api - post an issue via curl
+cfg -  add gui menu: optional / notification
+talk to eran
+add tasks: cat todo.txt done.txt
