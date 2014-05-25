@@ -10,12 +10,12 @@ todo
 - optionaly: update wallpaper for xfce - default: false
 
 
-``` 
+``` sh
 *** howto:
 #sudo apt-get install git
 #git clone https://github.com/brownman/do_for_others_first
 #cd do_for_others_first
-#./do_for_others_first.sh
+#./install.sh
 ```
 
 ![demo](./.VIDEO/installation.gif)
