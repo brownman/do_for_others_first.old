@@ -1,0 +1,24 @@
+#version_id:   1
+#author:    ofer shaham
+#plugin:    do_for_others_first
+#about:     productivity tool
+#date:      23.5.2014
+#time:      11:00
+#depend:    gxmessage libnotify-bin gmail-notify curl vim-gtk pv cowsay toilet figlet sox libsox-fmt-mp3 zenity fortunes
+#help:      post an issue - and expect an answer 
+#check:     grep     
+#.shit: ps -ef | grep gmail-notify | grep -v grep
+#
+#change log:
+#++ gmail-notify is not compulsary
+#++ install xfce4 hotkey:alt+F2
+#++ add dependencies for: curl gvim
+#++ limit execution for user:not root
+#++ compare local and remote versions
+#++ compare local and remote versions
+#++ local translation of outgoing message
+#++ if test failed then notify the gui-user 
+
+#31 - red
+#32 - green
+#33 - yellow

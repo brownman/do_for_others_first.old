@@ -5,18 +5,20 @@
   
 
 
-before_script: ./.before_script.sh 
-script: bash -c ./BANK/GMAIL_GROUP/gmail_group.sh
-after_script:  bash -c ./.after_script.sh
+before_script:  bash -c ./TRAVIS/before_script.sh 
+script:         bash -c ./TRAVIS/test.sh
+after_script:   bash -c ./TRAVIS/after_script.sh
 branches:
   only:
-      - master
+      - develop
 env:
+  global:
+      - url_travis="http://docs.travis-ci.com/user/build-configuration/"
 #  global:
 #      - CAMPFIRE_TOKEN=abc123
 #      - TIMEOUT=1000
   matrix:
       - USE_NETWORK=true
 #GOOD TO KNOW:
-# http://docs.travis-ci.com/user/build-configuration/
+
 #
