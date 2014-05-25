@@ -1,0 +1,13 @@
+rm -rf /tmp/TMP
+figlet HOWTO
+toilet1 INSTALL
+step mkdir -p /tmp/TMP 
+step cd /tmp/TMP
+confirm pwd
+step git clone https://github.com/brownman/do_for_others_first.git
+confirm ls do*
+step cd do_for_others_first
+confirm pwd
+step ./install.sh
+echo now when running the command: bash - the project will be loaded immidiatly.
+echo DONE! 

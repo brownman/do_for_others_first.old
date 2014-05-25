@@ -5,9 +5,9 @@
   
 
 
-before_script:  bash -c ./TRAVIS/before_script.sh 
-script:         bash -c ./TRAVIS/test.sh
-after_script:   bash -c ./TRAVIS/after_script.sh
+before_script:  bash -c ./.TRAVIS/before_script.sh 
+script:         bash -c ./.TRAVIS/test.sh
+after_script:   bash -c ./.TRAVIS/after_script.sh
 branches:
   only:
       - develop
