@@ -1,0 +1,3 @@
+mute  source $dir_modules/CFG/list.cfg
+proxy bash -c  $dir_modules/SHELL_STEPS/list.sh
+

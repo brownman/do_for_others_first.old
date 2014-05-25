@@ -5,17 +5,24 @@
 #version: 1
 pushd `dirname $0`>/dev/null
 clear
-source struct.cfg
-[  -d $dir_workspace ] && { echo "[dir_workspace] already exist" ; } || { mkdir -p $dir_workspace ; }
+#source struct.cfg
+#[  -d $dir_workspace ] && { echo "[dir_workspace] already exist" ; } || { mkdir -p $dir_workspace ; }
 create_anchor(){
 cat > ~/link << FILE
-export dir_root0=`pwd`
-alias cdroot="cd \$dir_root0"
-source \$dir_root0/source.cfg
-source \$dir_root0/env.cfg
-. \$dir_root0/run.sh
+export dir_root=`pwd`
+alias cdroot="cd \$dir_root"
+
+
+cmd1="source \$dir_root/.travis.sh"
+cmd2="source \$dir_root/source.cfg"
+cmd3="\$dir_root/run.sh"
+
+echo "\$cmd2"
+eval "\$cmd2"
 FILE
 }
+
+#echo "$( \"$cmd1\" && \"$cmd2\" && \"$cmd3\" )"
 create_bashrc_link(){
 
 

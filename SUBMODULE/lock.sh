@@ -1,1 +1,0 @@
-chmod u-w READONLY
