@@ -1,4 +1,5 @@
 #xcowfortune
+set -o nounset
 set -e
 
 shopt -s expand_aliases
@@ -10,10 +11,11 @@ xcowsay "$str" --time=20
 echo `pwd`
 alias remind="cat /tmp/quote"
 dir_self=`dirname $0`
-ls -l "$dir_self/translate.sh"
+#ls -l "$dir_self/translate.sh"
 
-file_translate=$dir_self/translate.sh
-file_languages=$dir_self/languages.txt
+file_translate=$file_translate_sh
+file_languages=$file_languages_txt
+
 while read line;do
 cmd="$file_translate $line \"$str\""
 echo "[cmd] $cmd"

@@ -1,0 +1,45 @@
+[cmd] bash -c /home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS/list.sh
+ ________________________________
+< NEXT: mv translate to BUILTINS >
+ --------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+run the menu to enter a sub-project
+next - type step2
+/home/dao04/BANK/INIT/TEST
+[cmd] /home/dao04/BANK/INIT/BUILTIN/BANK/translate.sh ru "Good news.  Ten weeks from Friday will be a pretty good day."
+input: Good news.  Ten weeks from Friday will be a pretty good day.
+input_wsp: Good+news.++Ten+weeks+from+Friday+will+be+a+pretty+good+day.
+file_mp3:  /tmp/goodnews_ru.mp3
+Хорошие новости . 
+Khoroshiye novosti . 
+[cmd] play -V1 -q  /tmp/goodnews_ru.mp3
+[cmd] /home/dao04/BANK/INIT/BUILTIN/BANK/translate.sh ru "Good news.  Ten weeks from Friday will be a pretty good day."
+input: Good news.  Ten weeks from Friday will be a pretty good day.
+input_wsp: Good+news.++Ten+weeks+from+Friday+will+be+a+pretty+good+day.
+file_mp3:  /tmp/goodnews_ru.mp3
+Хорошие новости . 
+Khoroshiye novosti . 
+use cached file
+[cmd] play -V1 -q  /tmp/goodnews_ru.mp3
+[cmd] /home/dao04/BANK/INIT/BUILTIN/BANK/translate.sh ar "Good news.  Ten weeks from Friday will be a pretty good day."
+input: Good news.  Ten weeks from Friday will be a pretty good day.
+input_wsp: Good+news.++Ten+weeks+from+Friday+will+be+a+pretty+good+day.
+file_mp3:  /tmp/goodnews_ar.mp3
+الخبر السار . 
+[cmd] play -V1 -q  /tmp/goodnews_ar.mp3
+[cmd] /home/dao04/BANK/INIT/BUILTIN/BANK/translate.sh fr "Good news.  Ten weeks from Friday will be a pretty good day."
+input: Good news.  Ten weeks from Friday will be a pretty good day.
+input_wsp: Good+news.++Ten+weeks+from+Friday+will+be+a+pretty+good+day.
+file_mp3:  /tmp/goodnews_fr.mp3
+Bonnes nouvelles . 
+[cmd] play -V1 -q  /tmp/goodnews_fr.mp3
+[cmd] /home/dao04/BANK/INIT/BUILTIN/BANK/translate.sh it "Good news.  Ten weeks from Friday will be a pretty good day."
+input: Good news.  Ten weeks from Friday will be a pretty good day.
+input_wsp: Good+news.++Ten+weeks+from+Friday+will+be+a+pretty+good+day.
+file_mp3:  /tmp/goodnews_it.mp3
+Buone notizie . 
+[cmd] play -V1 -q  /tmp/goodnews_it.mp3

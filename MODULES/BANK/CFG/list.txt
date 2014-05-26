@@ -1,3 +1,10 @@
+TESTING/test_single.cfg
+TESTING/trap_err_1.cfg
+PRESENT/print_color_n.cfg
+PRESENT/print_ok.cfg
+PRESENT/print_error.cfg
+PRESENT/pv2.cfg  
+PRESENT/toilet1.cfg
 LOCAL/finder.cfg
 LOCAL/replace.cfg
 LOCAL/save.cfg
@@ -7,9 +14,7 @@ SCRIPTING/ensure_escaped.cfg
 SCRIPTING/every.cfg
 SCRIPTING/trace.cfg
 SCRIPTING/dereference.cfg
-SCRIPTING/pv1.cfg
 SCRIPTING/update_clipboard.cfg
-SCRIPTING/print_color.cfg
 SCRIPTING/follow_symlinks.cfg
 SCRIPTING/proxy.cfg
 SCRIPTING/random.cfg
@@ -21,3 +26,7 @@ REGEX/grep.cfg
 REGEX/util.cfg
 URL/fu.cfg
 URL/informative.cfg
+
+#SCRIPTING/pv1.cfg
+#SCRIPTING/print_color.cfg
+

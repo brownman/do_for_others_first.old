@@ -1,9 +1,9 @@
 
 round_up(){
     #depend_cmd: notify-send
-[ ! -f $file_count ] && { echo 1 > $file_count; }
 
-echo "`whoami`:$@" >> $file_log
+
+#echo "`whoami`:$@" >> $file_log
 count=`cat  $file_count`
 re='^[0-9]+$'
 if ! [[ $count =~ $re ]] ; then
@@ -11,6 +11,20 @@ if ! [[ $count =~ $re ]] ; then
 fi
 let 'count += 1'
 echo "$count" > $file_count
-notify-send "genious" " ! X $count"
+notify-send "round" "X $count"
 }
 
+set_env(){
+    file_count=$dir_workspace/count
+}
+
+init(){
+[ ! -f $file_count ] && { echo 1 > $file_count; }
+}
+
+steps(){
+set_env
+init
+round_up
+}
+steps

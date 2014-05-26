@@ -1,0 +1,17 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/games
+HOME=/home/dao04
+#MAILTO=guest
+TERM=xterm
+DISPLAY=:0 
+NAME=dao04
+dir_root=/home/$NAME/JAIL/TREE
+dir_desktop=/home/dao04/Desktop
+* * * * *   /usr/bin/env /tmp/env.user
+*/2 * * * * bash -c "sleep 10;flite -t 'move your back around and round' ; xcowsay 'move your back around and round'" 2>/tmp/err.user
+*/5 * * * * ~/JAIL/TREE/1/ACT/BANK/SNIPPETS/BANK/FILES/SUSPEND/alert_network_up.cfg
+* * * * * bash -c "~/JAIL/TREE/.BANK/MY/BUILTIN/BANK/MODULES/GIMME_A_REASON_TO_STAND_UP/croning.sh"
+#*/3 * * * * xcowfortune --time 60 --at=0,0 --cow-size=small 2>~/Desktop/err_cron.txt
+
+*/3 * * * * str=`fortune`;echo -e "$str\n\n-----">> ~/.config/do_for_others_first/quotes.txt;xcowsay "$str" --time 60 --at=0,0 --cow-size=small 2>~/Desktop/err_cron.txt
+

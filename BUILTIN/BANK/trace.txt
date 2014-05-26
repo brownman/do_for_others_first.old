@@ -1,0 +1,18 @@
+print_color 35 [line] mute  source $dir_modules/CFG/list.cfg
+print_color 33 [mute] source /home/dao04/BANK/INIT/MODULES/BANK/CFG/list.cfg
+print_color 35 [line] proxy bash -c  $dir_modules/SHELL_STEPS/list.sh
+print_color 35 [line] mute  source $dir_modules/CFG/list.cfg
+print_color 33 [mute] source /home/dao04/BANK/INIT/MODULES/BANK/CFG/list.cfg
+print_color 35 [line] proxy bash -c  $dir_modules/SHELL_STEPS/list.sh
+print_color 35 [line] mute  source $dir_modules/CFG/list.cfg
+print_color 33 [mute] source /home/dao04/BANK/INIT/MODULES/BANK/CFG/list.cfg
+print_color 35 [line] proxy bash -c  $dir_modules/SHELL_STEPS/list.sh
+print_color 35 [line] mute  source $dir_modules/CFG/list.cfg
+print_color 33 [mute] source /home/dao04/BANK/INIT/MODULES/BANK/CFG/list.cfg
+print_color 35 [line] proxy bash -c  $dir_modules/SHELL_STEPS/list.sh
+print_color 35 [line] mute  source $dir_modules/CFG/list.cfg
+print_color 33 [mute] source /home/dao04/BANK/INIT/MODULES/BANK/CFG/list.cfg
+print_color 35 [line] proxy bash -c  $dir_modules/SHELL_STEPS/list.sh
+print_color 35 [line] mute  source $dir_modules/CFG/list.cfg
+print_color 33 [mute] source /home/dao04/BANK/INIT/MODULES/BANK/CFG/list.cfg
+print_color 35 [line] proxy bash -c  $dir_modules/SHELL_STEPS/list.sh

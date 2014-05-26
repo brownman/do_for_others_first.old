@@ -1,0 +1,19 @@
+/home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS/err
+/home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS/list.sh
+/home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS/list.txt
+
+/home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS/BANK:
+check_new_mail.sh
+cleanup.cfg
+f1.cfg
+init.cfg
+next_mission.sh
+round_up.sh
+setup_hotkey_f1.cfg
+tasks.cfg
+upgrade_motivation.sh
+wallpaper.cfg
+
+/home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS/DIRS:
+RANDOM_FUN
+bash -e /home/dao04/BANK/INIT/MODULES/BANK/SHELL_STEPS//.test.sh
