@@ -1,0 +1,4 @@
+vimrc
+PKGBUILD
+cron - minimize greatness
+
